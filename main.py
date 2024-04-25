@@ -1,3 +1,10 @@
+"""
+Author:         Jaxon Xavier Christie
+Date:           4/25/2024
+Assignment:     Lab 09
+Course:         CPSC1051
+Lab Section:    001
+"""
 class ExitNotFoundError(Exception):
     def __init__(self, room_name):
         self.room_name = room_name
